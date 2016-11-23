@@ -56,7 +56,13 @@ project(":code/tarasenko-alex").name = "tarasenko-alex"
 // Бабинцева Анна
 // Быкадоров Роман
 // Веселов Илья
+include "code/veselov-ilya"
+project(":code/veselov-ilya").name = "veselov-ilya-Model"
+
 // Волков Денис
+include "code/volkov-denis"
+project(":code/volkov-denis").name = "volkov-denis-Model"
+
 // Воронин Дмитрий
 // Грошева Людмила
 include "code/grosheva-ludmila"
@@ -66,12 +72,22 @@ project(":code/grosheva-ludmila").name = "grosheva-ludmila-Model"
 include "code/dobroliubova-evgeniia"
 project(":code/dobroliubova-evgeniia").name = "dobroliubova-evgeniia-Model"
 // Евтюшин Валерий
+include "code/Yevtyushin-Valery"
+project(":code/Yevtyushin-Valery").name = "YevtyushinValery-tdd-lab1"
 // Еланов Артем
 // Зайдуллова Алина
+include "code/zaydullova-alina"
+project(":code/zaydullova-alina").name = "zaydullova-alina-Model"
+
 // Зырин Илья
 // Ильин Иван
 // Исрафилов Руслан
+include "code/israfilov-ruslan"
+project(":code/israfilov-ruslan").name = "israfilov-ruslan-model"
+
 // Карчков Денис
+include "code/Karchkov-Denis"
+project(":code/Karchkov-Denis").name = "Karchkov-Denis-Model"
 // Кокошников Алексей
 // Колистратова Дарья
 // Кочетов Павел
@@ -85,6 +101,7 @@ project(":code/kudriavtsev-nikita").name = "kudriavtsev-nikita-lab1-Model"
 // Кукушкин Даниил
 include "code/kukushkin-daniil"
 project(":code/kukushkin-daniil").name = "kukushkin-daniil-Model"
+
 // Ларин Антон
 include "code/larin-anton"
 project(":code/larin-anton").name = "larin-anton-Model"
@@ -103,6 +120,8 @@ project(":code/maloykina-elena").name = "maloykina-elena-Model"
 // Пауль Эдуард
 // Песков Дмитрий
 // Поздеев Антон
+include "code/Pozdeev-Anton"
+project(":code/Pozdeev-Anton").name = "pozdeev-anton-model"
 // Пономарев Георгий
 // Пономарев Никита
 include "code/ponomarev-nikita/Model"
@@ -112,6 +131,9 @@ include "code/Redkin-Michail"
 project(":code/Redkin-Michail").name = "Redkin-Michail-Model"
 // Рыбаков Антон
 // Рыбин Валентин
+include "code/rybin-valentine"
+project(":code/rybin-valentine").name = "rybin-valentine-polynomial"
+
 // Рябинкин Евгений
 include "code/ryabinkin-evgeni"
 project(":code/ryabinkin-evgeni").name = "ryabinkin-evgeni-Model"
@@ -121,6 +143,9 @@ project(":code/ryabinkin-evgeni").name = "ryabinkin-evgeni-Model"
 include "code/sirotin-nikita"
 project(":code/sirotin-nikita").name = "sirotin-nikita-Model"
 // Скребков Артём
+include "code/skrebkov-artem"
+project(":code/skrebkov-artem").name = "skrebkov-artem-Model"
+
 // Соврасов Владислав
 include "code/sovrasov-vlad"
 project(":code/sovrasov-vlad").name = "sovrasov-vlad"
@@ -135,7 +160,8 @@ project(":code/solovev-dmitriy").name = "solovev-dmitriy-Model"
 include "code/tarasenko-alex"
 project(":code/tarasenko-alex").name = "tarasenko-alex"
 // Тропичева Дарья
-
+include "code/Tropicheva-Darya"
+project(":code/Tropicheva-Darya").name = "Tropicheva-Darya"
 // Федосов Александр
 include "code/Fedosov-Alexander"
 project(":code/Fedosov-Alexander").name = "Fedosov-Alexander-Model"
@@ -143,7 +169,11 @@ project(":code/Fedosov-Alexander").name = "Fedosov-Alexander-Model"
 // Цыганов Алексей
 // Чугунов Евгений
 // Шадрунов Артем
+
 // Ширяева Вера
+include "code/shiryaeva-vera"
+project(":code/shiryaeva-vera").name = "shiryaeva-vera-Model"
+
 // Шишкин Владислав
 // Шочин Александр
 include "code/shochin-alexandr"
