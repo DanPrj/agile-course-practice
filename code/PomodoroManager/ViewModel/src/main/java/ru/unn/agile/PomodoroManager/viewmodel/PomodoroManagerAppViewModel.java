@@ -221,8 +221,6 @@ public class PomodoroManagerAppViewModel {
     public String getPomodoroStateLabel() {
         pomodoroState = pomodoroManager.getState();
         switch (pomodoroState) {
-            case Off:
-                return StateLabels.POMODORO_OFF_LABEL;
             case Pomodoro:
                 return StateLabels.POMODORO_LABEL;
             case ShortBreak:
@@ -230,7 +228,7 @@ public class PomodoroManagerAppViewModel {
             case LongBreak:
                 return StateLabels.POMODORO_LONG_BREAK_LABEL;
             default:
-                throw new RuntimeException("Manager is in unknown state");
+                return StateLabels.POMODORO_OFF_LABEL;
         }
     }
 

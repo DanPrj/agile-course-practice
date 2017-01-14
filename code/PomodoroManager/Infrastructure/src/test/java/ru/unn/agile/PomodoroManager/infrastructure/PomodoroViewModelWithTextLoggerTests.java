@@ -7,7 +7,8 @@ public class PomodoroViewModelWithTextLoggerTests extends ViewModelTests {
     @Override
     public void setUp() {
         TextLogger realTextLogger =
-            new TextLogger("./PomodoroViewModelWithTxtLoggerTests.log");
+                null;
+        realTextLogger = new TextLogger("./PomodoroViewModelWithTxtLoggerTests.log");
         super.setViewModel(new PomodoroManagerAppViewModel(realTextLogger));
     }
 }

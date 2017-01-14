@@ -275,6 +275,8 @@ include "code/PomodoroManager/View"
 project(":code/PomodoroManager/View").name = "Pomodoro-Manager-View"
 include "code/PomodoroManager/ViewModel"
 project(":code/PomodoroManager/ViewModel").name = "Pomodoro-Manager-ViewModel"
+include "code/PomodoroManager/Infrastructure"
+project(":code/PomodoroManager/Infrastructure").name = "Pomodoro-Manager-Infrastructure"
 
 // Соловьев Дмитрий
 include "code/FractionWithLogger/Model"
